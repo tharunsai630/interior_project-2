@@ -1,0 +1,81 @@
+@media only screen and (max-width: 600px) {
+  /* General */
+  body {
+    background-attachment: scroll;
+  }
+
+  header {
+    padding: 1rem 5%;
+  }
+
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    padding: 1.5rem 5%;
+    min-height: auto;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-image-room {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-image-room img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Showcase */
+  .showcase {
+    padding: 2rem 5%;
+    margin: 1rem 5%;
+  }
+
+  .showcase-item {
+    flex: 0 0 100%;
+  }
+
+  /* Features */
+  .features {
+    flex-direction: column;
+    padding: 2rem 5%;
+  }
+
+  .feature-content {
+    padding-left: 0;
+  }
+
+  /* Contact */
+  .contact-container {
+    flex-direction: column;
+  }
+
+  /* Section headings */
+  .section-header h2 {
+    font-size: 1.6rem;
+  }
+}

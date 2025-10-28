@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Interiors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="mobile.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assects/designimg/logo.png" alt="Ayush Interiors Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-image-room">
+            <img src="assects\designimg\roomdesign.png" alt="Interior Design">
+        </div>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>AYUSH INTERIORS</h1>
+                <p>At Ayush Interiors, we believe that every space tells a story. Our passionate team of designers creates interiors that reflect your personality, aspirations, and lifestyle. <br>With a commitment to excellence and an eye for detail, we approach each project with creativity, precision, and a deep understanding of our clients' aspirations.</p>
+                <button class="btn">Explore Our Work</button>
+            </div>
+            <div class="hero-image">
+                <img src="assects/designimg/HEROSECTIONIMG1.png" alt="Interior Design">
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>We offer a comprehensive range of interior design services tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential Design</h3>
+                    <p>Transform your home into a personal sanctuary that reflects your unique style and meets your functional needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Design</h3>
+                    <p>Create inspiring workspaces that boost productivity and leave a lasting impression on clients and employees alike.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>We work together to bring your idea to life , every penny you spend on us is valueible.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Furniture Selection</h3>
+                    <p>Find the perfect pieces that combine style, comfort, and functionality for your space.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase">
+            <div class="showcase-item">
+                <img src="assects\example\room1.jpg" style="width: 100%; height: 70%;" alt="Modern Sofa Design">
+                <h3>Living Room Design</h3>
+                <p>Elegant and comfortable living spaces tailored to your lifestyle.</p>
+            </div>
+            <div class="showcase-item">
+                <div class="showcase-highlight">
+                    <img src="assects\example\room2.jpg" style="width: 100%; height: 70%;" alt="Lighting Solutions">
+                    <h3>Lighting Solutions</h3>
+                    <p>Illuminate your space with our designer lighting fixtures.</p>
+                </div>
+            </div>
+            <div class="showcase-item">
+                <img src="assects\example\room3.jpg" style="width: 100%; height: 70%;" alt="Contemporary Design">
+                <h3>Contemporary Design</h3>
+                <p>Modern aesthetics meet functionality in our contemporary designs.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Explore our latest projects and get inspired</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item residential">
+                    <div class="portfolio-img">
+                        <div class="placeholder-img" style="background-color: #f2f2f2; height: 300px; display: flex; align-items: center; justify-content: center;">
+                            <p>Residential Project 1</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Modern Apartment</h3>
+                        <p>Contemporary design for urban living</p>
+                    </div>
+                </div>
+                <div class="portfolio-item commercial">
+                    <div class="portfolio-img">
+                        <div class="placeholder-img" style="background-color: #f2f2f2; height: 300px; display: flex; align-items: center; justify-content: center;">
+                            <p>Commercial Project 1</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Creative Office</h3>
+                        <p>Inspiring workspace design</p>
+                    </div>
+                </div>
+                <div class="portfolio-item hospitality">
+                    <div class="portfolio-img">
+                        <div class="placeholder-img" style="background-color: #f2f2f2; height: 300px; display: flex; align-items: center; justify-content: center;">
+                            <p>Hospitality Project 1</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Luxury Restaurant</h3>
+                        <p>Elegant dining experience</p>
+                    </div>
+                </div>
+                <div class="portfolio-item residential">
+                    <div class="portfolio-img">
+                        <div class="placeholder-img" style="background-color: #f2f2f2; height: 300px; display: flex; align-items: center; justify-content: center;">
+                            <p>Residential Project 2</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Serene Bedroom</h3>
+                        <p>Tranquil sleeping quarters</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-image">
+                <img src="assects/designimg/logo.png" style="height: 50%; width: 50%;" alt="Interior Decor">
+            </div>
+            <div class="feature-content">
+                <h2>Why Choose Us</h2>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>Personalized Design</h3>
+                        <p>We create spaces that reflect your unique personality and needs.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Expert Team</h3>
+                        <p>Our team of experienced designers brings creativity and expertise.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Quality Materials</h3>
+                        <p>We use only premium materials to ensure longevity and elegance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="process">
+            <div class="section-header">
+                <h2>Our Design Process</h2>
+                <p>How we bring your vision to life</p>
+            </div>
+            <div class="process-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3>Consultation</h3>
+                        <p>We begin with understanding your vision, requirements, and budget. Our team discusses your ideas and preferences to create a roadmap for your project.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3>Concept Development</h3>
+                        <p>Our designers create concept boards and initial layout plans. We present you with design options that align with your vision and functionality needs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3>Detailed Design</h3>
+                        <p>Once the concept is approved, we develop detailed plans, 3D visualizations, and material specifications to bring your project to life.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3>Implementation</h3>
+                        <p>Our team oversees the execution of the design, coordinating with contractors and vendors to ensure everything is implemented according to plan.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <h3>Final Reveal</h3>
+                        <p>We conduct a final walkthrough, making sure every detail meets our high standards and your expectations before handing over your beautifully designed space.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about us</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Ayush Interiors transformed our house into a home. Their attention to detail and ability to understand our vision exceeded our expectations. We couldn't be happier with the result!"</p>
+                        <div class="client-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Residential Client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Working with Ayush Interiors for our office redesign was a pleasure. The team was professional, creative, and delivered on time and within budget. Our employees love the new space!"</p>
+                        <div class="client-info">
+                            <h4>Rajesh Kapoor</h4>
+                            <p>Corporate Client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The designers at Ayush Interiors have an incredible eye for detail. They created a space that perfectly balances aesthetics and functionality. I recommend them wholeheartedly!"</p>
+                        <div class="client-info">
+                            <h4>Anika Patel</h4>
+                            <p>Villa Owner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-btn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Ayush Interiors</h2>
+                <p>Creating beautiful spaces since 2015</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Ayush Interiors was founded with a vision to transform ordinary spaces into extraordinary experiences. With over a decade of experience in the interior design industry, our team brings a wealth of knowledge, creativity, and passion to every project.</p>
+                    <p>We believe that good design should be accessible to everyone. Our approach combines aesthetic appeal with functional solutions that cater to the unique needs of each client. Whether it's a cozy home, a dynamic office space, or a stylish retail outlet, we bring the same level of dedication and attention to detail.</p>
+                    <p>Our team of qualified designers, architects, and project managers work collaboratively to deliver exceptional results that exceed expectations. We take pride in building lasting relationships with our clients through transparent communication and professional service.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-text">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-text">Satisfied Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-text">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15</span>
+                        <span class="stat-text">Design Awards</span>
+                    </div>
+                </div>
+            </div>
+           
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your project</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Our Location</h3>
+                            <p>123 Design Street, Creative City, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone Number</h3>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Address</h3>
+                            <p>info@ayushinteriors.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service">
+                                <option value="" disabled selected>Service Required</option>
+                                <option value="residential">Residential Design</option>
+                                <option value="commercial">Commercial Design</option>
+                                <option value="consultation">Design Consultation</option>
+                                <option value="other">Other Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Space?</h2>
+                <p>Contact us today for a free consultation and let us help you create the space of your dreams.</p>
+                <button class="btn cta-btn">Schedule Consultation</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assects/designimg/logo.png" alt="Ayush Interiors Logo">
+                <p>Transforming spaces into beautiful experiences.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#process">Our Process</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Stay updated with our latest projects and design tips.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn-small">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@ayushinteriors.com</p>
+                <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Design Street, Creative City</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Ayush Interiors. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
